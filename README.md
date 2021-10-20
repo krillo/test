@@ -21,7 +21,7 @@ git push -u origin main
 
 ## Name and port
 
-Some files need to be edited to match your project name and the agreed port for your app. Change `boilerplate` and `3301`
+Some config files need to be edited to match your project name and the agreed upon port for your app. Change `boilerplate` and `3301`
 
 - `package.json`
 
@@ -37,7 +37,6 @@ Some files need to be edited to match your project name and the agreed port for 
   ```
   module.exports = forenaWebpackConfig({
   name: 'boilerplate',
-  port: 3301,
   });
   ```
 - `azure-pipelines.yml`
@@ -52,6 +51,11 @@ Some files need to be edited to match your project name and the agreed port for 
       :
   ```
 
+## "boilerplate" in the source code
+
+Thera are some templating in the source code as well.
+Do a full project search for "boilerplate" to get to know the code.
+
 ## Install dependencies.
 
 ```bash
@@ -64,9 +68,8 @@ Start the development server.
 yarn start
 ```
 
-The app can be accessed at [http://localhost:3301](http://localhost:3301).
+The app can be accessed at [http://localhost:3301](http://localhost:3301) or your new port.
 
 ## Coding Guidelines
 
-Before starting development read the coding guidelines
-[here](https://github.com/icomdev/forena#coding-guidelines).
+Before starting development read the [coding guidelines](https://github.com/icomdev/forena#coding-guidelines).
