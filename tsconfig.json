@@ -1,0 +1,11 @@
+{
+  "extends": "@forena/utilities/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "src",
+    "outDir": "dist"
+  },
+  "exclude": ["node_modules"],
+  "typeRoots": ["src/types"],
+  "include": ["./"]
+}
+
